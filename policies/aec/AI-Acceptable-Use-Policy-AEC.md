@@ -1,5 +1,6 @@
 # AI Acceptable Use Policy for AEC Firms
 **Open IT Policy Library for AEC by Sorted Solution** | [sortedsolution.com](https://www.sortedsolution.com/oitpl)
+
 *Version 1.0 — March 2026 | Free to use*
 
 ---
