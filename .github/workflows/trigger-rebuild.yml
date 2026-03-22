@@ -1,0 +1,26 @@
+# .github/workflows/trigger-rebuild.yml
+#
+# When policies are pushed to main, trigger the website repo
+# to rebuild the Zensical-rendered docs at sortedsolution.com/oitpl.
+
+name: Trigger OITPL Rebuild
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'policies/**'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger website rebuild
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.WEBSITE_REPO_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/sortedsol/sortedsolution-website/dispatches \
+            -d '{"event_type": "oitpl-updated"}'
