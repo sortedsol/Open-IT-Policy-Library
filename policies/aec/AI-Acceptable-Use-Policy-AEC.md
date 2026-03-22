@@ -41,7 +41,7 @@ ZDR is one of the biggest factors in whether a tool is safe to use with firm or 
 
 ## 4. AI Tool Classification
 
-### Tier 1 — Pre-Approved (IT-managed, enterprise protections confirmed)
+### Tier 1 Pre-Approved (IT-managed, enterprise protections confirmed)
 
 These tools have been reviewed, set up, and approved by IT. You can use them with project data, following the Data Classification rules in Section 6.
 
@@ -59,7 +59,7 @@ These tools have been reviewed, set up, and approved by IT. You can use them wit
     Update this table to match your actual subscriptions. A tool is only Tier 1 if your firm has the specific license that includes enterprise data protections and IT has set it up and approved it.
 
 
-### Tier 2 — Approved with Restrictions (enterprise protections confirmed, requires IT setup)
+### Tier 2 Approved with Restrictions (enterprise protections confirmed, requires IT setup)
 
 These tools offer data protections under certain subscription tiers but aren't part of the firm's core software. They can be used with project data, but only after IT has confirmed the account is set up correctly.
 
@@ -70,13 +70,13 @@ These tools offer data protections under certain subscription tiers but aren't p
 | Claude for Work / Team / Enterprise | Firm-managed only | The business plans handle data differently than the consumer product. Must be reviewed and approved by IT before use with project data. |
 | Gemini for Google Workspace | Accessed through the firm's managed Google Workspace | Enterprise protections only apply through a managed Workspace account. Consumer Gemini is not approved for confidential or project data. |
 
-### Tier 3 — Approved for General Knowledge Only (No ZDR or unverified)
+### Tier 3 Approved for General Knowledge Only (No ZDR or unverified)
 
 These tools can only be used for general questions that contain **zero** client data, project data, firm financials, or internal business information. Think of them the same way you'd think of a Google search — don't type anything you wouldn't want to be public.
 
 Examples: ChatGPT Free/Plus/Pro (consumer plans), Claude Free/Pro/Max (consumer plans), consumer Gemini, Perplexity Free, Midjourney (default plans), or any AI tool not listed in Tier 1 or Tier 2. Consumer plans may use your input to improve their AI models unless you've turned that off — but even with training disabled, these plans don't have the written protections the firm needs for client or project data.
 
-### Tier 4 — Prohibited
+### Tier 4 Prohibited
 
 - Any AI tool that has been explicitly prohibited by IT
 - Any AI browser extension not reviewed by IT (these often capture all text on every page you visit)
@@ -105,7 +105,7 @@ If the firm runs its own local AI models, those aren't automatically Tier 1 — 
 
 Not all data carries the same risk. This classification tells you what kind of data you can use with which AI tools.
 
-### Level 1 — Public / General Knowledge
+### Level 1 Public / General Knowledge
 
 Information that's already public or has no confidentiality attached to it.
 
@@ -113,7 +113,7 @@ Information that's already public or has no confidentiality attached to it.
 
 **Permitted AI tiers:** 1, 2, 3
 
-### Level 2 — Internal / Low Sensitivity
+### Level 2 Internal / Low Sensitivity
 
 Firm information that isn't public but wouldn't cause real harm if it got out.
 
@@ -121,7 +121,7 @@ Firm information that isn't public but wouldn't cause real harm if it got out.
 
 **Permitted AI tiers:** 1, 2
 
-### Level 3 — Confidential / Project Data
+### Level 3 Confidential / Project Data
 
 Client project information, design work, and business data that we're professionally or contractually obligated to protect.
 
@@ -129,7 +129,7 @@ Client project information, design work, and business data that we're profession
 
 **Permitted AI tiers:** 1 only
 
-### Level 4 — Restricted
+### Level 4 Restricted
 
 The most sensitive data — protected by specific legal requirements, strict NDAs, or regulations.
 
@@ -141,7 +141,7 @@ The most sensitive data — protected by specific legal requirements, strict NDA
 
 ## 7. Rules for AI Use in AEC Work
 
-### 7.1 — Professional Review of AI-Generated Output
+### 7.1 Professional Review of AI-Generated Output
 
 AI can produce output that looks right but is wrong, incomplete, or doesn't fit the project. In AEC work, that's a serious problem — errors can affect life safety, code compliance, and professional liability.
 
@@ -158,35 +158,35 @@ You are responsible for anything you put your name on, no matter how it was prod
     - **Stamped or sealed documents:** The professional of record must independently verify any AI-assisted content before it's incorporated.
 
 
-### 7.2 — Disclosure and Transparency
+### 7.2 Disclosure and Transparency
 
 - Be upfront with your team when AI played a big role in producing deliverables.
 - If a client contract or RFP requires you to disclose AI use, do it.
 - Don't pass off AI-generated content as original human work in situations where the distinction matters (proposals, qualifications, published articles).
 
-### 7.3 — Intellectual Property and Copyright
+### 7.3 Intellectual Property and Copyright
 
 - AI-generated images and text may not qualify for copyright protection. Don't rely on AI output as the sole basis for anything you plan to copyright or defend as intellectual property.
 - Don't upload other people's copyrighted work into AI tools — that includes other firms' drawings, copyrighted reference images, and published standards with restricted distribution.
 - Before using AI-generated images in client deliverables or marketing, make sure the tool's terms of service actually give you commercial use rights under your subscription.
 
-### 7.4 — AI for Code and Computational Design
+### 7.4 AI for Code and Computational Design
 
 If your firm uses computational design tools (Grasshopper, Dynamo, custom scripts), AI code assistants like GitHub Copilot can be helpful — but you must review and test any generated code before using it in real workflows. Don't run AI-generated scripts that modify BIM models or automate drawing production without testing them in an isolated environment first and getting approval from a firm principal or partner.
 
-### 7.5 — Data Minimization
+### 7.5 Data Minimization
 
 Even when using a Tier 1 or Tier 2 tool, share as little data as possible. Before you type a prompt or upload a file, take a moment to remove client names, project names, site addresses, fee amounts, and personal contact info where you can. The less you share, the less there is to worry about if something goes wrong.
 
-### 7.6 — Records Retention and Discoverability
+### 7.6 Records Retention and Discoverability
 
 Your AI conversations could become business records — especially if they influence design decisions, feed into calculations, or end up in client deliverables. Don't assume AI chats are casual and private. If AI output contributed to a project decision, save that output in the firm's project records system. Don't leave it sitting in a third-party chat history as the only copy.
 
-### 7.7 — Output Storage
+### 7.7 Output Storage
 
 If AI output contains project or firm information, copy it into the firm's approved systems (project folders, document management, approved cloud storage). Don't leave it sitting in a third-party AI chat indefinitely. Once you've saved the relevant output to firm systems, delete the AI conversation from the third-party platform.
 
-### 7.8 — AI in Client Communications
+### 7.8 AI in Client Communications
 
 Don't use AI to draft client communications in a way that misrepresents who actually wrote them. If you use AI to help draft a client email, you're still responsible for what it says, how it sounds, and whether it's accurate — same as if you'd used any other tool to help you write.
 

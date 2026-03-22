@@ -36,7 +36,7 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
 
 ## 4. Acceptable Use
 
-### 4.1 — General Principles
+### 4.1 General Principles
 
 - Use firm technology primarily for firm business. Incidental personal use is fine — checking personal email, browsing during lunch — as long as it doesn't interfere with your work, consume significant resources, or create security risks.
 - Keep your workstation locked when you step away (Windows: Win+L, Mac: Ctrl+Cmd+Q).
@@ -44,7 +44,7 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
 - Don't share your credentials with anyone, including IT. IT will never ask for your password.
 - Use the firm VPN when working from outside the office, including on project sites and at client offices.
 
-### 4.2 — Email and Communication
+### 4.2 Email and Communication
 
 - Firm email is for firm business. Don't use it to sign up for personal accounts, newsletters, or services unrelated to work.
 - Don't forward firm email to personal email accounts.
@@ -52,7 +52,7 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
 - Don't send confidential project data (drawings, models, specs, client financials) to personal email addresses or unauthorized external recipients.
 - Be professional in all firm communications. Email, Teams messages, and Slack messages are business records and may be discoverable in legal proceedings.
 
-### 4.3 — Software and Licensing
+### 4.3 Software and Licensing
 
 - Only use software that IT has approved and licensed for the firm. Don't install software on firm devices without IT approval — this includes browser extensions, plugins, and "free" tools downloaded from the internet.
 - Don't use personal licenses for firm work, and don't use firm licenses for personal work.
@@ -62,7 +62,7 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
     List your specific license management rules here. Common items to address: floating vs. named licenses for ArchiCAD/Revit/AutoCAD, Adobe Creative Cloud seat assignments, Bluebeam license sharing policies, and how to request a temporary license for a subconsultant.
 
 
-### 4.4 — Cloud Storage and File Management
+### 4.4 Cloud Storage and File Management
 
 - Store project files in the firm's approved project file system — not on your local desktop, personal cloud storage, or USB drives.
 - Follow the firm's folder structure and naming conventions for project files.
@@ -73,7 +73,7 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
     Specify your approved file storage and collaboration platforms here (e.g., "All project files must be stored in [BIM 360 / Autodesk Docs / SharePoint / firm file server]. Bluebeam Studio sessions are approved for document review. Personal cloud storage is not approved for project data.")
 
 
-### 4.5 — Printing and Plotting
+### 4.5 Printing and Plotting
 
 - Use firm printers and plotters for firm work only. Don't print large personal jobs on firm equipment.
 - Follow the firm's plotting and printing policies for large-format output (D-size and larger).
@@ -101,7 +101,7 @@ The following are never acceptable, regardless of the circumstances:
 
 ## 6. Data Handling
 
-### 6.1 — Client and Project Data
+### 6.1 Client and Project Data
 
 Client and project data is the firm's most sensitive asset. This includes drawings, models, specifications, correspondence, budgets, proposals, and any other project-related information.
 
@@ -110,13 +110,13 @@ Client and project data is the firm's most sensitive asset. This includes drawin
 - When sharing project data with external parties (clients, consultants, contractors), use the firm's approved file sharing methods — not personal email or personal cloud storage.
 - Don't store client or project data on personal devices, personal cloud storage, or removable media (USB drives, external hard drives) unless specifically authorized by IT and the project lead.
 
-### 6.2 — Removable Media
+### 6.2 Removable Media
 
 - USB drives and external hard drives are generally not approved for storing project data. If you need to use removable media (e.g., delivering files to a print shop, transferring large files to a client), get approval from IT first.
 - Encrypt any removable media containing project data.
 - Never plug in a USB drive you found or received from an unknown source.
 
-### 6.3 — Data Retention and Disposal
+### 6.3 Data Retention and Disposal
 
 - Don't delete project data unless you're following the firm's retention policy. AEC projects often have long retention requirements — some jurisdictions require maintaining project records for the life of the building plus additional years.
 - When disposing of old equipment, IT will handle secure data wiping. Don't donate, sell, or throw away firm devices without going through IT.

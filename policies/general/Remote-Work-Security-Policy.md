@@ -21,7 +21,7 @@ If you're accessing company resources from anywhere other than the company's off
 
 ## 3. Network Security
 
-### 3.1 — VPN Required
+### 3.1 VPN Required
 
 Always use the company's VPN when accessing company resources from outside the office. This includes email, cloud storage, client files, and any internal systems.
 
@@ -31,13 +31,13 @@ The VPN encrypts your connection so that even if the network you're on is compro
     Specify your VPN solution and enrollment process here. Include: how to install the VPN client, how to connect, who to contact if it's not working, and any split-tunneling policies.
 
 
-### 3.2 — Wi-Fi Security
+### 3.2 Wi-Fi Security
 
 - **Home networks:** Use WPA3 or WPA2 encryption. Change the default admin password on your router. If you're on an older router that only supports WEP, replace it or talk to IT about options.
 - **Client offices:** Use the company VPN. Don't trust the client's network, even if they say it's secure — it's not your network and you can't verify its configuration.
 - **Public Wi-Fi (coffee shops, airports, hotels, co-working spaces):** Always use the company VPN. Never access company resources on public Wi-Fi without it. If the VPN isn't working, use your phone's mobile hotspot instead.
 
-### 3.3 — Home Network Recommendations
+### 3.3 Home Network Recommendations
 
 Your home network doesn't need to be enterprise-grade, but it should meet a basic security standard:
 
@@ -69,13 +69,13 @@ If you're using a personal device for company work, the BYOD Policy also applies
 
 ## 5. Physical Security
 
-### 5.1 — Home Office
+### 5.1 Home Office
 
 - Work in a private area when handling confidential client data. If you're on a video call discussing a client project, make sure your screen isn't visible to people who shouldn't see it.
 - Lock your workstation when you step away, even at home. If other people live with you, they shouldn't have casual access to company data on your screen.
 - Don't print confidential documents at home unless you have a way to securely dispose of them (shredder). Don't throw client files in your household trash or recycling.
 
-### 5.2 — Travel and Public Spaces
+### 5.2 Travel and Public Spaces
 
 - Never leave a company laptop unattended in a car, hotel room (unless in a safe), conference room, or airport.
 - Use a privacy screen on your laptop when working in public spaces — especially on planes and in co-working spaces.
@@ -86,11 +86,11 @@ If you're using a personal device for company work, the BYOD Policy also applies
 
 ## 6. Data Handling While Remote
 
-### 6.1 — Cloud-First
+### 6.1 Cloud-First
 
 When working remotely, use the company's cloud platforms (SharePoint, OneDrive, Google Drive, Dropbox, or other approved systems) to access and collaborate on files. Don't download large file sets to your local machine unless you need to work offline.
 
-### 6.2 — Offline Work
+### 6.2 Offline Work
 
 If you need to work offline (e.g., on a flight, at a location with no connectivity):
 
@@ -99,7 +99,7 @@ If you need to work offline (e.g., on a flight, at a location with no connectivi
 - Sync your changes back to the company's cloud platform as soon as you're back online.
 - Don't leave offline copies of company data on your device longer than necessary.
 
-### 6.3 — File Transfers
+### 6.3 File Transfers
 
 - Don't email client or company files to personal email addresses so you can access them from a personal device. Use the company's approved cloud sharing methods.
 - Don't use personal cloud storage (Google Drive, iCloud, personal Dropbox) to transfer or store company files.

@@ -37,7 +37,7 @@ This plan covers security incidents affecting the firm's technology systems, dat
 
 Every firm needs an incident response team — even if it's just three people. These are the roles, not necessarily separate people. In a small firm, one person may fill multiple roles.
 
-### 3.1 — Core Roles
+### 3.1 Core Roles
 
 | Role | Responsibility | Who |
 |------|---------------|-----|
@@ -46,7 +46,7 @@ Every firm needs an incident response team — even if it's just three people. T
 | **Communications Lead** | Handles client notification, employee communication, and external inquiries. | [INSERT: typically firm principal or operations manager] |
 | **Legal Advisor** | Advises on notification requirements, regulatory obligations, and liability. | [INSERT: firm's legal counsel — identify before an incident happens] |
 
-### 3.2 — External Contacts
+### 3.2 External Contacts
 
 Fill these in now, not during an incident:
 
@@ -70,7 +70,7 @@ Fill these in now, not during an incident:
 
 Not every security event is a full-blown incident. This classification helps you decide how to respond.
 
-### Severity 1 — Critical
+### Severity 1 Critical
 
 Active, confirmed compromise with immediate risk to data or operations.
 
@@ -78,7 +78,7 @@ Examples: active ransomware infection, confirmed data breach involving client pr
 
 **Response time:** Immediate. Activate the full incident response team. Contact cyber insurance carrier.
 
-### Severity 2 — High
+### Severity 2 High
 
 Confirmed security event with potential for significant impact, but not actively causing damage right now.
 
@@ -86,7 +86,7 @@ Examples: compromised user account (not admin), malware detected and contained o
 
 **Response time:** Within 2 hours. Incident Lead and Technical Lead assess and contain. Determine if escalation to Severity 1 is needed.
 
-### Severity 3 — Medium
+### Severity 3 Medium
 
 Suspicious activity or minor security event with limited potential impact.
 
@@ -94,7 +94,7 @@ Examples: suspicious email reported but no one clicked, unauthorized software fo
 
 **Response time:** Within 1 business day. Technical Lead investigates. Document and resolve.
 
-### Severity 4 — Low
+### Severity 4 Low
 
 Security hygiene issues or policy violations with no immediate threat.
 
@@ -106,7 +106,7 @@ Examples: employee using unapproved cloud storage, device with expired security 
 
 ## 5. Response Phases
 
-### Phase 1 — Detection and Reporting
+### Phase 1 Detection and Reporting
 
 **Who reports:** Anyone at the firm. Every employee should know how to report a suspected incident.
 
@@ -121,7 +121,7 @@ Examples: employee using unapproved cloud storage, device with expired security 
 
 **Rule:** Report first, investigate later. Employees should never try to investigate or fix a security incident on their own. Fast reporting is not punished — delayed reporting creates real risk.
 
-### Phase 2 — Assessment and Classification
+### Phase 2 Assessment and Classification
 
 The Incident Lead and Technical Lead assess the report:
 
@@ -132,7 +132,7 @@ The Incident Lead and Technical Lead assess the report:
 5. Do we need to activate the full incident response team?
 6. Do we need to contact our cyber insurance carrier? (For Severity 1 and 2: yes, immediately.)
 
-### Phase 3 — Containment
+### Phase 3 Containment
 
 The goal is to stop the bleeding — limit the damage without destroying evidence.
 
@@ -149,7 +149,7 @@ The goal is to stop the bleeding — limit the damage without destroying evidenc
 - Monitor for continued attacker activity
 - Begin forensic analysis (or engage your incident response retainer)
 
-### Phase 4 — Eradication
+### Phase 4 Eradication
 
 Remove the threat from firm systems:
 
@@ -159,7 +159,7 @@ Remove the threat from firm systems:
 - Verify that backups are clean before using them for restoration
 - Scan all connected systems for indicators of compromise
 
-### Phase 5 — Recovery
+### Phase 5 Recovery
 
 Restore normal operations:
 
@@ -169,7 +169,7 @@ Restore normal operations:
 - Monitor restored systems closely for signs of reinfection
 - Confirm that all project data is intact — for AEC firms, lost project data can mean lost deadlines, lost revenue, and potential professional liability
 
-### Phase 6 — Post-Incident Review
+### Phase 6 Post-Incident Review
 
 Within 1-2 weeks of resolving the incident, conduct a review:
 

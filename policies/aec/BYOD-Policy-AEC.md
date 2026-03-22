@@ -48,7 +48,7 @@ BYOD is not automatic. You need IT approval before using a personal device for f
 
 Before IT will approve a personal device for firm use, it must meet these minimum requirements:
 
-### 4.1 — Laptops and Tablets
+### 4.1 Laptops and Tablets
 
 - **Operating system:** Current supported version of Windows 11, macOS, iPadOS, or ChromeOS. Devices running unsupported or end-of-life operating systems are not eligible.
 - **Encryption:** Full-disk encryption enabled (BitLocker on Windows, FileVault on Mac, device encryption on tablets).
@@ -57,7 +57,7 @@ Before IT will approve a personal device for firm use, it must meet these minimu
 - **Updates:** Automatic updates enabled. Security patches must be installed within 7 days of release.
 - **No jailbreaking or rooting.** Devices with modified operating systems are not eligible.
 
-### 4.2 — Phones
+### 4.2 Phones
 
 - **Operating system:** Current or previous major version of iOS or Android.
 - **Screen lock:** PIN (6+ digits), password, or biometric.
@@ -65,7 +65,7 @@ Before IT will approve a personal device for firm use, it must meet these minimu
 - **Updates:** Automatic updates enabled.
 - **No jailbreaking or rooting.**
 
-### 4.3 — Device Management
+### 4.3 Device Management
 
 !!! tip "Firm administrators"
     Decide whether BYOD devices require a Mobile Device Management (MDM) profile or a lighter-touch approach:
@@ -79,7 +79,7 @@ Before IT will approve a personal device for firm use, it must meet these minimu
 
 ## 5. What You Can and Can't Do on Personal Devices
 
-### 5.1 — Allowed
+### 5.1 Allowed
 
 - Access firm email and calendar
 - Join video calls and use firm messaging tools (Teams, Slack, Zoom)
@@ -87,7 +87,7 @@ Before IT will approve a personal device for firm use, it must meet these minimu
 - Use firm-approved mobile apps for time tracking, expense reporting, and project management
 - Access the firm VPN for remote work (if your device meets the requirements above)
 
-### 5.2 — Not Allowed
+### 5.2 Not Allowed
 
 - Store complete BIM models, construction document sets, or project databases on personal devices
 - Install firm-licensed AEC software (ArchiCAD, Revit, AutoCAD, Bluebeam, Adobe Creative Cloud) on personal devices unless IT has explicitly approved it and confirmed licensing allows it
@@ -96,7 +96,7 @@ Before IT will approve a personal device for firm use, it must meet these minimu
 - Use personal devices to access firm file servers directly (use VPN + remote desktop instead)
 - Let family members or other people use a device that has access to firm resources
 
-### 5.3 — AEC-Specific Considerations
+### 5.3 AEC-Specific Considerations
 
 - **Large file handling:** BIM models and project files can be enormous. Don't try to sync or download large project files to personal devices with limited storage. Use Autodesk Docs, BIM 360, or Bluebeam Studio to view and mark up files in the cloud instead.
 - **Licensed software:** Most AEC software licenses are assigned to specific devices or users. Using a personal device for licensed AEC software almost always requires IT involvement to manage the license correctly and ensure compliance.

@@ -36,7 +36,7 @@ Don't store personal files on company devices or in company cloud accounts. The 
 
 ## 4. Acceptable Use
 
-### 4.1 — General Principles
+### 4.1 General Principles
 
 - Use company technology primarily for company business. Incidental personal use is fine — checking personal email, browsing during lunch — as long as it doesn't interfere with your work, consume significant resources, or create security risks.
 - Keep your workstation locked when you step away (Windows: Win+L, Mac: Ctrl+Cmd+Q).
@@ -44,7 +44,7 @@ Don't store personal files on company devices or in company cloud accounts. The 
 - Don't share your credentials with anyone, including IT. IT will never ask for your password.
 - Use the company VPN when working from outside the office.
 
-### 4.2 — Email and Communication
+### 4.2 Email and Communication
 
 - Company email is for company business. Don't use it to sign up for personal accounts, newsletters, or services unrelated to work.
 - Don't forward company email to personal email accounts.
@@ -52,7 +52,7 @@ Don't store personal files on company devices or in company cloud accounts. The 
 - Don't send confidential client or business data to personal email addresses or unauthorized external recipients.
 - Be professional in all company communications. Email, chat messages, and other communications are business records and may be discoverable in legal proceedings.
 
-### 4.3 — Software and Licensing
+### 4.3 Software and Licensing
 
 - Only use software that IT has approved and licensed for the company. Don't install software on company devices without IT approval — this includes browser extensions, plugins, and "free" tools downloaded from the internet.
 - Don't use personal licenses for company work, and don't use company licenses for personal work.
@@ -62,7 +62,7 @@ Don't store personal files on company devices or in company cloud accounts. The 
     List your specific license management rules here. Common items: seat-based vs. floating licenses, how employees request new software, and how to handle licenses for contractors.
 
 
-### 4.4 — Cloud Storage and File Management
+### 4.4 Cloud Storage and File Management
 
 - Store work files in the company's approved storage systems — not on your local desktop, personal cloud storage, or USB drives.
 - Follow the company's folder structure and naming conventions.
@@ -94,7 +94,7 @@ The following are never acceptable, regardless of the circumstances:
 
 ## 6. Data Handling
 
-### 6.1 — Client and Business Data
+### 6.1 Client and Business Data
 
 Client and business data is the company's most sensitive asset. This includes client files, correspondence, financials, proposals, contracts, and any other confidential business information.
 
@@ -103,13 +103,13 @@ Client and business data is the company's most sensitive asset. This includes cl
 - When sharing data with external parties (clients, vendors, partners), use the company's approved file sharing methods — not personal email or personal cloud storage.
 - Don't store client or business data on personal devices, personal cloud storage, or removable media (USB drives, external hard drives) unless specifically authorized by IT.
 
-### 6.2 — Removable Media
+### 6.2 Removable Media
 
 - USB drives and external hard drives are generally not approved for storing company data. If you need to use removable media, get approval from IT first.
 - Encrypt any removable media containing company or client data.
 - Never plug in a USB drive you found or received from an unknown source.
 
-### 6.3 — Data Retention and Disposal
+### 6.3 Data Retention and Disposal
 
 - Don't delete business or client data unless you're following the company's retention policy.
 - When disposing of old equipment, IT will handle secure data wiping. Don't donate, sell, or throw away company devices without going through IT.
