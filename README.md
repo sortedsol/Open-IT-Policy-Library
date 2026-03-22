@@ -27,9 +27,19 @@ Open-IT-Policy-Library/
 ├── README.md
 ├── policies/
 │   ├── aec/                    ← AEC-specific policies
-│   │   └── AI-Acceptable-Use-Policy-AEC.md
-│   └── general/                ← General SMB policies
-│       └── AI-Acceptable-Use-Policy.md
+│   │   ├── AI-Acceptable-Use-Policy-AEC.md
+│   │   ├── Acceptable-Use-Policy-AEC.md
+│   │   ├── BYOD-Policy-AEC.md
+│   │   ├── Remote-Work-Security-Policy-AEC.md
+│   │   └── Incident-Response-Plan-AEC.md
+│   ├── general/                ← General SMB policies
+│   │   ├── AI-Acceptable-Use-Policy.md
+│   │   ├── Acceptable-Use-Policy.md
+│   │   ├── BYOD-Policy.md
+│   │   ├── Remote-Work-Security-Policy.md
+│   │   └── Incident-Response-Plan.md
+│   └── references/             ← Shared reference documents
+│       └── Password-Policy-Best-Practices.md
 ```
 
 ## Current Policies
@@ -39,12 +49,26 @@ Open-IT-Policy-Library/
 | Policy | Status | Description |
 |--------|--------|-------------|
 | [AI Acceptable Use Policy for AEC Firms](policies/aec/AI-Acceptable-Use-Policy-AEC.md) | Published | Four-tier AI tool classification, AEC data classification, vendor-specific guidance with DPA links, incident response, and enforcement hooks. |
+| [Acceptable Use Policy for AEC Firms](policies/aec/Acceptable-Use-Policy-AEC.md) | Published | Technology acceptable use covering AEC software licensing, BIM file management, data handling, network use, and physical security. |
+| [BYOD Policy for AEC Firms](policies/aec/BYOD-Policy-AEC.md) | Published | Personal device requirements, AEC-specific restrictions on BIM data and licensed software, MDM options, remote wipe, and offboarding. |
+| [Remote Work Security Policy for AEC Firms](policies/aec/Remote-Work-Security-Policy-AEC.md) | Published | VPN requirements, Wi-Fi security, project site considerations, large file handling, physical security for remote and field work. |
+| [Incident Response Plan for AEC Firms](policies/aec/Incident-Response-Plan-AEC.md) | Published | Starter IR framework with severity classification, response phases, ransomware guidance, client notification, and contact roster template. |
 
 ### General SMB Track
 
 | Policy | Status | Description |
 |--------|--------|-------------|
 | [AI Acceptable Use Policy](policies/general/AI-Acceptable-Use-Policy.md) | Published | Four-tier AI tool classification, data classification, vendor-specific guidance with DPA links, incident response, and enforcement hooks — written for any professional services firm. |
+| [Acceptable Use Policy](policies/general/Acceptable-Use-Policy.md) | Published | Technology acceptable use covering software licensing, cloud storage, data handling, network use, and physical security. |
+| [BYOD Policy](policies/general/BYOD-Policy.md) | Published | Personal device requirements, MDM options, remote wipe provisions, security responsibilities, and offboarding. |
+| [Remote Work Security Policy](policies/general/Remote-Work-Security-Policy.md) | Published | VPN requirements, Wi-Fi security, home network recommendations, physical security, and data handling for remote workers. |
+| [Incident Response Plan](policies/general/Incident-Response-Plan.md) | Published | Starter IR framework with severity classification, response phases, ransomware guidance, client notification, and contact roster template. |
+
+### Shared References
+
+| Document | Status | Description |
+|----------|--------|-------------|
+| [Password Policy Best Practice Tracker](policies/references/Password-Policy-Best-Practices.md) | Published | Side-by-side comparison of current NIST, Microsoft, and CIS password and authentication guidance. Replaces outdated "change every 90 days" advice. |
 
 ## How to Use These Policies
 
