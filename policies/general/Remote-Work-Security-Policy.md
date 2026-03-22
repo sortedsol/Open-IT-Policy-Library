@@ -27,7 +27,9 @@ Always use the company's VPN when accessing company resources from outside the o
 
 The VPN encrypts your connection so that even if the network you're on is compromised, your data stays protected. Don't access company resources without it — even from your home network.
 
-> **Companies:** Specify your VPN solution and enrollment process here. Include: how to install the VPN client, how to connect, who to contact if it's not working, and any split-tunneling policies.
+!!! tip "Company administrators"
+    Specify your VPN solution and enrollment process here. Include: how to install the VPN client, how to connect, who to contact if it's not working, and any split-tunneling policies.
+
 
 ### 3.2 — Wi-Fi Security
 
@@ -45,7 +47,9 @@ Your home network doesn't need to be enterprise-grade, but it should meet a basi
 - The network name (SSID) doesn't identify you or the company
 - IoT devices (smart speakers, cameras, thermostats) are on a separate network or VLAN if your router supports it — these devices are often poorly secured and can be a gateway into your network
 
-> **Companies:** Decide whether you want IT to provide a recommended home router configuration, or whether employees are responsible for their own home networks. Some companies provide a stipend for home office equipment, which can include a quality router.
+!!! tip "Company administrators"
+    Decide whether you want IT to provide a recommended home router configuration, or whether employees are responsible for their own home networks. Some companies provide a stipend for home office equipment, which can include a quality router.
+
 
 ---
 
@@ -120,7 +124,9 @@ The same incident reporting requirements apply whether you're in the office or w
 
 Remote incidents can be harder for IT to respond to, so fast reporting is even more important. If your laptop is stolen on a Friday afternoon, IT needs to know right away — not Monday morning.
 
-> **Companies:** Insert your actual IT contact method above. Consider whether you need a separate after-hours contact for remote incident reporting.
+!!! tip "Company administrators"
+    Insert your actual IT contact method above. Consider whether you need a separate after-hours contact for remote incident reporting.
+
 
 ---
 

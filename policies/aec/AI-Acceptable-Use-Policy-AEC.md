@@ -55,7 +55,9 @@ These tools have been reviewed, set up, and approved by IT. You can use them wit
 | AutoCAD AI features (Smart Blocks, Autodesk Assistant) | Part of a licensed AutoCAD subscription | Covered under [Autodesk's DPA](https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/Autodesk_DPA_Online.pdf). See [AutoCAD AI features overview](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/What-are-the-AutoCAD-AI-driven-features.html). |
 | Bluebeam AI features (AI-Review, AI-Match) | Part of a licensed Bluebeam Revu or Bluebeam Max subscription | See [Bluebeam AI & Innovation](https://www.bluebeam.com/product/ai-and-innovation/) and [Bluebeam DPA](https://www.bluebeam.com/legal/data-processing-addendum/). |
 
-> **Firm administrators:** Update this table to match your actual subscriptions. A tool is only Tier 1 if your firm has the specific license that includes enterprise data protections and IT has set it up and approved it.
+!!! tip "Firm administrators"
+    Update this table to match your actual subscriptions. A tool is only Tier 1 if your firm has the specific license that includes enterprise data protections and IT has set it up and approved it.
+
 
 ### Tier 2 — Approved with Restrictions (enterprise protections confirmed, requires IT setup)
 
@@ -147,12 +149,14 @@ AI can produce output that looks right but is wrong, incomplete, or doesn't fit 
 
 You are responsible for anything you put your name on, no matter how it was produced. AI-generated content in stamped or sealed documents must never stand on its own — the professional of record must independently verify it.
 
-> **Firms:** Define your review requirements based on your practice areas and risk tolerance. Some insurance carriers are issuing specific guidance on AI-generated work product — check with your broker. At a minimum, consider this framework:
->
-> - **Conceptual and internal use** (brainstorming, internal memos, research summaries): Check for factual accuracy before relying on the output.
-> - **Client-facing deliverables** (reports, presentations, renderings shown to clients): Have a project manager or senior staff member review before delivery.
-> - **Technical and code-compliance work** (calculations, code analysis, specification language, drawing annotations): Have a licensed professional in the appropriate discipline review before it goes into documents of record.
-> - **Stamped or sealed documents:** The professional of record must independently verify any AI-assisted content before it's incorporated.
+!!! tip "Firm administrators"
+    Define your review requirements based on your practice areas and risk tolerance. Some insurance carriers are issuing specific guidance on AI-generated work product — check with your broker. At a minimum, consider this framework:
+
+    - **Conceptual and internal use** (brainstorming, internal memos, research summaries): Check for factual accuracy before relying on the output.
+    - **Client-facing deliverables** (reports, presentations, renderings shown to clients): Have a project manager or senior staff member review before delivery.
+    - **Technical and code-compliance work** (calculations, code analysis, specification language, drawing annotations): Have a licensed professional in the appropriate discipline review before it goes into documents of record.
+    - **Stamped or sealed documents:** The professional of record must independently verify any AI-assisted content before it's incorporated.
+
 
 ### 7.2 — Disclosure and Transparency
 
@@ -214,7 +218,9 @@ If you accidentally share confidential or restricted data with an AI tool that d
 5. **IT will determine next steps**, including whether the client needs to be notified.
 6. **Don't try to handle this quietly.** Reporting quickly is not punished — waiting to report it creates legal risk.
 
-> **Firms:** Insert your actual IT contact method above.
+!!! tip "Firm administrators"
+    Insert your actual IT contact method above.
+
 
 ---
 
@@ -245,7 +251,9 @@ If you're not sure whether your situation needs more than IT approval, ask your 
 
 ## 12. Training
 
-> **Firms:** Consider requiring a short training session on this policy and your approved AI tools before giving staff access to Tier 1 or Tier 2 tools. An annual re-acknowledgment of this policy is a good idea. Training doesn't need to be complicated — a 30-minute walkthrough of the data levels, tool tiers, and what to do if something goes wrong is enough for most staff.
+!!! tip "Firm administrators"
+    Consider requiring a short training session on this policy and your approved AI tools before giving staff access to Tier 1 or Tier 2 tools. An annual re-acknowledgment of this policy is a good idea. Training doesn't need to be complicated — a 30-minute walkthrough of the data levels, tool tiers, and what to do if something goes wrong is enough for most staff.
+
 
 ---
 

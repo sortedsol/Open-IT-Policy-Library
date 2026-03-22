@@ -29,7 +29,9 @@ Always use the firm's VPN when accessing firm resources from outside the office.
 
 The VPN encrypts your connection so that even if the network you're on is compromised, your data stays protected. Don't access firm resources without it — even from your home network.
 
-> **Firms:** Specify your VPN solution and enrollment process here. Include: how to install the VPN client, how to connect, who to contact if it's not working, and any split-tunneling policies.
+!!! tip "Firm administrators"
+    Specify your VPN solution and enrollment process here. Include: how to install the VPN client, how to connect, who to contact if it's not working, and any split-tunneling policies.
+
 
 ### 3.2 — Wi-Fi Security
 
@@ -48,7 +50,9 @@ Your home network doesn't need to be enterprise-grade, but it should meet a basi
 - The network name (SSID) doesn't identify you or the firm
 - IoT devices (smart speakers, cameras, thermostats) are on a separate network or VLAN if your router supports it — these devices are often poorly secured and can be a gateway into your network
 
-> **Firms:** Decide whether you want IT to provide a recommended home router configuration, or whether employees are responsible for their own home networks. Some firms provide a stipend for home office equipment, which can include a quality router.
+!!! tip "Firm administrators"
+    Decide whether you want IT to provide a recommended home router configuration, or whether employees are responsible for their own home networks. Some firms provide a stipend for home office equipment, which can include a quality router.
+
 
 ---
 
@@ -129,7 +133,9 @@ The same incident reporting requirements apply whether you're in the office or w
 
 Remote incidents can be harder for IT to respond to, so fast reporting is even more important. If your laptop is stolen from a site trailer on a Friday afternoon, IT needs to know right away — not Monday morning.
 
-> **Firms:** Insert your actual IT contact method above. Consider whether you need a separate after-hours contact for remote incident reporting.
+!!! tip "Firm administrators"
+    Insert your actual IT contact method above. Consider whether you need a separate after-hours contact for remote incident reporting.
+
 
 ---
 
@@ -145,7 +151,9 @@ AEC workflows often involve large files — BIM models, point clouds, rendering 
 
 ### 9.2 — Internet Requirements
 
-> **Firms:** Consider publishing minimum internet speed recommendations for remote workers. A reasonable baseline for AEC work: 50 Mbps download / 10 Mbps upload for general office work, 100+ Mbps for BIM-heavy workflows. Consider offering a stipend for employees who need to upgrade their home internet.
+!!! tip "Firm administrators"
+    Consider publishing minimum internet speed recommendations for remote workers. A reasonable baseline for AEC work: 50 Mbps download / 10 Mbps upload for general office work, 100+ Mbps for BIM-heavy workflows. Consider offering a stipend for employees who need to upgrade their home internet.
+
 
 ---
 

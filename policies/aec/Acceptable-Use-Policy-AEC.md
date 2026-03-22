@@ -58,7 +58,9 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
 - Don't use personal licenses for firm work, and don't use firm licenses for personal work.
 - AEC software licensing is complex and expensive. Don't share license credentials between employees, run concurrent sessions beyond what the firm's license allows, or install firm software on personal devices unless IT has explicitly approved it.
 
-> **Firms:** List your specific license management rules here. Common items to address: floating vs. named licenses for ArchiCAD/Revit/AutoCAD, Adobe Creative Cloud seat assignments, Bluebeam license sharing policies, and how to request a temporary license for a subconsultant.
+!!! tip "Firm administrators"
+    List your specific license management rules here. Common items to address: floating vs. named licenses for ArchiCAD/Revit/AutoCAD, Adobe Creative Cloud seat assignments, Bluebeam license sharing policies, and how to request a temporary license for a subconsultant.
+
 
 ### 4.4 — Cloud Storage and File Management
 
@@ -67,7 +69,9 @@ Don't store personal files on firm devices or in firm cloud accounts. The firm i
 - Don't sync entire project folders to personal cloud storage (Google Drive, iCloud, personal OneDrive, personal Dropbox).
 - Large BIM models, point clouds, and rendering assets should be stored according to the firm's BIM management plan — don't create duplicate copies outside the approved system.
 
-> **Firms:** Specify your approved file storage and collaboration platforms here (e.g., "All project files must be stored in [BIM 360 / Autodesk Docs / SharePoint / firm file server]. Bluebeam Studio sessions are approved for document review. Personal cloud storage is not approved for project data.")
+!!! tip "Firm administrators"
+    Specify your approved file storage and collaboration platforms here (e.g., "All project files must be stored in [BIM 360 / Autodesk Docs / SharePoint / firm file server]. Bluebeam Studio sessions are approved for document review. Personal cloud storage is not approved for project data.")
+
 
 ### 4.5 — Printing and Plotting
 
@@ -117,7 +121,9 @@ Client and project data is the firm's most sensitive asset. This includes drawin
 - Don't delete project data unless you're following the firm's retention policy. AEC projects often have long retention requirements — some jurisdictions require maintaining project records for the life of the building plus additional years.
 - When disposing of old equipment, IT will handle secure data wiping. Don't donate, sell, or throw away firm devices without going through IT.
 
-> **Firms:** Specify your data retention requirements here, especially for project records, stamped/sealed documents, and correspondence. Many states have specific retention requirements for architectural and engineering records.
+!!! tip "Firm administrators"
+    Specify your data retention requirements here, especially for project records, stamped/sealed documents, and correspondence. Many states have specific retention requirements for architectural and engineering records.
+
 
 ---
 
@@ -147,7 +153,9 @@ If you notice something wrong — a suspicious email, unexpected software on you
 
 Don't try to investigate or fix security issues on your own. Don't wait until you're "sure" something is wrong. Early reporting prevents small problems from becoming big ones.
 
-> **Firms:** Insert your actual IT contact method and expected response time above.
+!!! tip "Firm administrators"
+    Insert your actual IT contact method and expected response time above.
+
 
 ---
 

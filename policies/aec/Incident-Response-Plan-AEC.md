@@ -11,7 +11,9 @@ This document is a starter incident response plan — a framework your firm can 
 
 Most AEC firms don't have a dedicated security team. That's fine — but you still need a plan. When an incident happens, you don't have time to figure out who does what. This plan gives you that structure.
 
-> **Important:** This is a starting framework. Every firm should customize it for their specific environment, insurance requirements, and legal obligations. Have your legal counsel and insurance broker review this plan before adopting it.
+!!! warning "Important"
+    This is a starting framework. Every firm should customize it for their specific environment, insurance requirements, and legal obligations. Have your legal counsel and insurance broker review this plan before adopting it.
+
 
 ---
 
@@ -58,7 +60,9 @@ Fill these in now, not during an incident:
 | FBI field office (for ransomware/major breaches) | [INSERT local field office] | [INSERT] | ic3.gov |
 | State attorney general (breach notification) | [INSERT your state's AG office] | [INSERT] | [INSERT] |
 
-> **Firms:** Fill in this table now. The single most important thing you can do to prepare for an incident is have these contacts ready. When you're in the middle of a ransomware attack at 2 AM, you don't want to be searching for your insurance broker's phone number.
+!!! tip "Firm administrators"
+    Fill in this table now. The single most important thing you can do to prepare for an incident is have these contacts ready. When you're in the middle of a ransomware attack at 2 AM, you don't want to be searching for your insurance broker's phone number.
+
 
 ---
 
@@ -197,13 +201,15 @@ AEC firms have professional and contractual obligations to clients. If client da
 
 Most states have laws requiring notification when personal information is breached. Requirements vary by state — notification timelines, what qualifies as "personal information," and who must be notified (individuals, state AG, credit bureaus).
 
-> **Firms:** Identify the states where you operate and where your clients are located. Map out the breach notification requirements for each. Common requirements include:
->
-> - Notification to affected individuals within 30-60 days (varies by state)
-> - Notification to the state attorney general if the breach exceeds a certain number of records
-> - Specific content requirements for notification letters
->
-> Your legal counsel and cyber insurance carrier should help you navigate this. Don't try to figure out multi-state notification requirements during an active incident — map them out in advance.
+!!! tip "Firm administrators"
+    Identify the states where you operate and where your clients are located. Map out the breach notification requirements for each. Common requirements include:
+
+    - Notification to affected individuals within 30-60 days (varies by state)
+    - Notification to the state attorney general if the breach exceeds a certain number of records
+    - Specific content requirements for notification letters
+
+    Your legal counsel and cyber insurance carrier should help you navigate this. Don't try to figure out multi-state notification requirements during an active incident — map them out in advance.
+
 
 ---
 
@@ -218,7 +224,9 @@ Your incident response plan is only as good as your backups. Verify the followin
 - **What's backed up:** All project data? Email? Server configurations? Workstation images?
 - **Retention:** How far back can you restore?
 
-> **Firms:** If you haven't tested restoring from backup in the last 6 months, schedule a test. Many firms discover their backups don't actually work only when they need them.
+!!! tip "Firm administrators"
+    If you haven't tested restoring from backup in the last 6 months, schedule a test. Many firms discover their backups don't actually work only when they need them.
+
 
 ---
 

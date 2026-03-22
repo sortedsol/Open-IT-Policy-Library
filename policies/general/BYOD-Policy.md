@@ -33,12 +33,14 @@ This policy does **not** cover company-owned devices that employees take home �
 
 BYOD is not automatic. You need IT approval before using a personal device for company work.
 
-> **Companies:** Define who is eligible for BYOD. Options to consider:
->
-> - All employees by default, after signing this policy
-> - Only employees at a certain level or above
-> - Case-by-case approval based on role
-> - Contractors allowed for email/calendar only, not client data
+!!! tip "Company administrators"
+    Define who is eligible for BYOD. Options to consider:
+
+    - All employees by default, after signing this policy
+    - Only employees at a certain level or above
+    - Case-by-case approval based on role
+    - Contractors allowed for email/calendar only, not client data
+
 
 ---
 
@@ -65,11 +67,13 @@ Before IT will approve a personal device for company use, it must meet these min
 
 ### 4.3 — Device Management
 
-> **Companies:** Decide whether BYOD devices require a Mobile Device Management (MDM) profile or a lighter-touch approach:
->
-> - **Full MDM enrollment:** IT can enforce policies, push configurations, and remotely wipe the device. Most secure, but employees may be uncomfortable with IT's level of access to a personal device.
-> - **Containerized MDM:** IT manages only the work profile/container (Microsoft Intune, Google Workspace endpoint management). Personal data stays private. This is the recommended approach for most companies.
-> - **No MDM, policy-only:** Rely on this policy and employee attestation. Least secure, but may be the only practical option for short-term contractors.
+!!! tip "Company administrators"
+    Decide whether BYOD devices require a Mobile Device Management (MDM) profile or a lighter-touch approach:
+
+    - **Full MDM enrollment:** IT can enforce policies, push configurations, and remotely wipe the device. Most secure, but employees may be uncomfortable with IT's level of access to a personal device.
+    - **Containerized MDM:** IT manages only the work profile/container (Microsoft Intune, Google Workspace endpoint management). Personal data stays private. This is the recommended approach for most companies.
+    - **No MDM, policy-only:** Rely on this policy and employee attestation. Least secure, but may be the only practical option for short-term contractors.
+
 
 ---
 
@@ -115,7 +119,9 @@ If your personal device is lost, stolen, or compromised, IT may need to remotely
 - **Full MDM:** IT can perform a full device wipe if necessary. This erases everything on the device.
 - **No MDM:** IT will revoke access to company accounts (email, VPN, cloud storage) but cannot wipe data already downloaded to the device. You're responsible for deleting any company data.
 
-> **Companies:** Be clear about which wipe scenario applies to your BYOD program. Employees need to understand this before they enroll a personal device. If you use containerized MDM, emphasize that personal data is safe — it reduces pushback significantly.
+!!! tip "Company administrators"
+    Be clear about which wipe scenario applies to your BYOD program. Employees need to understand this before they enroll a personal device. If you use containerized MDM, emphasize that personal data is safe — it reduces pushback significantly.
+
 
 ---
 

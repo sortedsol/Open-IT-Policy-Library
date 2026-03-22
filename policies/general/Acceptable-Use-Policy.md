@@ -58,7 +58,9 @@ Don't store personal files on company devices or in company cloud accounts. The 
 - Don't use personal licenses for company work, and don't use company licenses for personal work.
 - Don't share license credentials between employees or install company software on personal devices unless IT has explicitly approved it.
 
-> **Companies:** List your specific license management rules here. Common items: seat-based vs. floating licenses, how employees request new software, and how to handle licenses for contractors.
+!!! tip "Company administrators"
+    List your specific license management rules here. Common items: seat-based vs. floating licenses, how employees request new software, and how to handle licenses for contractors.
+
 
 ### 4.4 — Cloud Storage and File Management
 
@@ -66,7 +68,9 @@ Don't store personal files on company devices or in company cloud accounts. The 
 - Follow the company's folder structure and naming conventions.
 - Don't sync work folders to personal cloud storage (Google Drive, iCloud, personal OneDrive, personal Dropbox).
 
-> **Companies:** Specify your approved file storage and collaboration platforms here (e.g., "All client files must be stored in [SharePoint / company file server / approved cloud platform]. Personal cloud storage is not approved for company data.")
+!!! tip "Company administrators"
+    Specify your approved file storage and collaboration platforms here (e.g., "All client files must be stored in [SharePoint / company file server / approved cloud platform]. Personal cloud storage is not approved for company data.")
+
 
 ---
 
@@ -110,7 +114,9 @@ Client and business data is the company's most sensitive asset. This includes cl
 - Don't delete business or client data unless you're following the company's retention policy.
 - When disposing of old equipment, IT will handle secure data wiping. Don't donate, sell, or throw away company devices without going through IT.
 
-> **Companies:** Specify your data retention requirements here, especially for client records, contracts, and financial data. Many industries have specific retention requirements.
+!!! tip "Company administrators"
+    Specify your data retention requirements here, especially for client records, contracts, and financial data. Many industries have specific retention requirements.
+
 
 ---
 
@@ -140,7 +146,9 @@ If you notice something wrong — a suspicious email, unexpected software on you
 
 Don't try to investigate or fix security issues on your own. Don't wait until you're "sure" something is wrong. Early reporting prevents small problems from becoming big ones.
 
-> **Companies:** Insert your actual IT contact method and expected response time above.
+!!! tip "Company administrators"
+    Insert your actual IT contact method and expected response time above.
+
 
 ---
 

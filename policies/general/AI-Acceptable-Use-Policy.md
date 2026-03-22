@@ -52,7 +52,9 @@ These tools have been reviewed, set up, and approved by IT. You can use them wit
 | GitHub Copilot Business/Enterprise | Company-managed subscription | Your prompts and suggestions are not used for training under Business/Enterprise plans (though some operational logging may still happen). See [GitHub Copilot data handling](https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/) and [product terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features). |
 | Google Workspace Gemini | Accessed through the company's managed Google Workspace Business/Enterprise plan | Enterprise protections only apply through a managed Workspace account. See [Gemini for Workspace data protection](https://workspace.google.com/terms/gemini-for-google-workspace-data-protection.html) and [Google Workspace DPA](https://workspace.google.com/terms/dpa_terms.html). |
 
-> **Company administrators:** Update this table to match your actual subscriptions. A tool is only Tier 1 if your company has the specific license that includes enterprise data protections and IT has set it up and approved it.
+!!! tip "Company administrators"
+    Update this table to match your actual subscriptions. A tool is only Tier 1 if your company has the specific license that includes enterprise data protections and IT has set it up and approved it.
+
 
 ### Tier 2 — Approved with Restrictions (enterprise protections confirmed, requires IT setup)
 
@@ -142,12 +144,14 @@ AI can produce output that looks right but is wrong, incomplete, or misleading. 
 
 **The baseline rule:** If AI-generated output is going into a client deliverable, informing a business decision, or being shared outside the company, a qualified person must review it first.
 
-> **Companies:** Define your review requirements based on your industry and risk tolerance. At a minimum, consider this framework:
->
-> - **Internal and informal use** (brainstorming, internal memos, research summaries): Check for factual accuracy before relying on the output.
-> - **Client-facing deliverables** (reports, presentations, proposals): Have a manager or senior team member review before delivery.
-> - **Technical or compliance-sensitive work** (financial analysis, regulatory filings, legal-adjacent content): Have a qualified subject matter expert review before it goes out.
-> - **Documents requiring signatures or certifications:** The responsible party must independently verify any AI-assisted content.
+!!! tip "Company administrators"
+    Define your review requirements based on your industry and risk tolerance. At a minimum, consider this framework:
+
+    - **Internal and informal use** (brainstorming, internal memos, research summaries): Check for factual accuracy before relying on the output.
+    - **Client-facing deliverables** (reports, presentations, proposals): Have a manager or senior team member review before delivery.
+    - **Technical or compliance-sensitive work** (financial analysis, regulatory filings, legal-adjacent content): Have a qualified subject matter expert review before it goes out.
+    - **Documents requiring signatures or certifications:** The responsible party must independently verify any AI-assisted content.
+
 
 ### 7.2 — Disclosure and Transparency
 
@@ -209,7 +213,9 @@ If you accidentally share confidential or restricted data with an AI tool that d
 5. **IT will determine next steps**, including whether the client needs to be notified.
 6. **Don't try to handle this quietly.** Reporting quickly is not punished — waiting to report it creates legal risk.
 
-> **Companies:** Insert your actual IT contact method above.
+!!! tip "Company administrators"
+    Insert your actual IT contact method above.
+
 
 ---
 
@@ -240,7 +246,9 @@ If you're not sure whether your situation needs more than IT approval, ask your 
 
 ## 12. Training
 
-> **Companies:** Consider requiring a short training session on this policy and your approved AI tools before giving staff access to Tier 1 or Tier 2 tools. An annual re-acknowledgment of this policy is a good idea. Training doesn't need to be complicated — a 30-minute walkthrough of the data levels, tool tiers, and what to do if something goes wrong is enough for most staff.
+!!! tip "Company administrators"
+    Consider requiring a short training session on this policy and your approved AI tools before giving staff access to Tier 1 or Tier 2 tools. An annual re-acknowledgment of this policy is a good idea. Training doesn't need to be complicated — a 30-minute walkthrough of the data levels, tool tiers, and what to do if something goes wrong is enough for most staff.
+
 
 ---
 
