@@ -1,13 +1,12 @@
 # AI Acceptable Use Policy for AEC Firms
 **Open IT Policy Library for AEC by Sorted Solution** | [sortedsolution.com](https://www.sortedsolution.com/oitpl)
-
 *Version 1.0 — March 2026 | Free to use*
 
 ---
 
-## Scope
+## 1. Scope
 
-This policy applies to all employees, contractors, subconsultants, and interns who use AI tools in connection with firm work — whether on firm-owned devices or personal devices, whether in the office or in the field, and whether the tool is provided by the firm or accessed independently.
+This policy applies to everyone who does work for the firm — employees, contractors, subconsultants, and interns. It applies regardless of what device you're using, where you're working, or whether the firm provided the AI tool.
 
 "AI tools" includes:
 
@@ -16,63 +15,63 @@ This policy applies to all employees, contractors, subconsultants, and interns w
 - Image generation tools (Midjourney, DALL·E, Stable Diffusion)
 - AI-powered transcription, summarization, and meeting tools
 - AI-powered note-taking and meeting bots (Otter, Fireflies, Granola, etc.)
-- Browser-based summarizers, PDF viewers with embedded AI chat, and CAD/BIM plugins that route data through third-party AI services
-- Any browser extension, plugin, or integration that routes data through an AI model — many of these tools capture data in the background without obvious prompts
+- Browser-based summarizers, PDF viewers with built-in AI chat, and CAD/BIM plugins that send data to outside AI services
+- Any browser extension, plugin, or add-on that sends data through an AI model — many of these tools quietly capture data in the background without you realizing it
 
 ---
 
-## Client and Contract Requirements Override This Policy
+## 2. Client and Contract Requirements Override This Policy
 
-Client-specific contract terms, NDAs, owner requirements, government requirements, and insurer requirements that are more restrictive than this policy take precedence. If a project contract prohibits the use of AI tools entirely, or restricts them beyond what this policy allows, the stricter rule applies. When in doubt, check with your project lead before using AI tools on that project's data.
+If a client contract, NDA, or government requirement is stricter than this policy, the stricter rule wins. If a project contract says "no AI," that means no AI — even if this policy would otherwise allow it. When in doubt, check with your project lead before using AI tools on that project's data.
 
 ---
 
-## Key Concept: Zero-Data-Retention (ZDR)
+## 3. Key Concept: Zero-Data-Retention (ZDR)
 
-A primary factor in evaluating whether an AI tool is acceptable for use with firm or project data is whether it offers a **Zero-Data-Retention (ZDR) agreement** — a contractual commitment from the AI vendor that:
+When you type something into an AI tool or upload a file, what happens to that data? That's the key question. A **Zero-Data-Retention (ZDR) agreement** is a written promise from the AI vendor that:
 
 1. Your inputs (prompts, uploaded files, pasted text) are **not stored** after processing
 2. Your data is **not used to train** the vendor's AI models
-3. The vendor provides this commitment in a **written data processing agreement**, not just a marketing FAQ
+3. This promise is in a **signed agreement**, not just a marketing page or FAQ
 
-The firm also considers contractual data protections, data residency, admin controls, retention settings, security posture, and applicable client obligations when evaluating AI tools. For tools handling confidential or project data, written business or enterprise data protections are generally required. If a tool does not offer these protections under your firm's subscription tier, it must not be used with any client data, project data, or confidential firm information.
+ZDR is one of the biggest factors in whether a tool is safe to use with firm or project data. The firm also looks at things like where the data is stored, what admin controls are available, and what our clients require of us. The bottom line: if the tool doesn't have written protections under your firm's subscription, don't use it with any client, project, or confidential firm data.
 
 ---
 
-## AI Tool Classification
+## 4. AI Tool Classification
 
 ### Tier 1 — Pre-Approved (IT-managed, enterprise protections confirmed)
 
-These tools have been evaluated by IT, are specifically licensed, configured, and approved by the firm, and may be used with project data subject to the Data Classification rules below.
+These tools have been reviewed, set up, and approved by IT. You can use them with project data, following the Data Classification rules in Section 6.
 
 | Tool | Condition | Notes |
 |------|-----------|-------|
-| Microsoft 365 Copilot / Copilot Chat | Must be licensed and enabled by the firm under an eligible Microsoft 365 subscription | Copilot is an add-on to eligible M365 plans, not included by default. Verify whether the user has Microsoft 365 Copilot or Copilot Chat with enterprise data protection — these offer different capabilities and licensing. Customer data is governed by the tenant's security and compliance controls. See [Microsoft's DPA](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA) and [Copilot privacy & data protection](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy). |
-| Adobe Firefly | Included in firm's Creative Cloud enterprise subscription | Adobe does not train foundational Firefly models on enterprise content. See [Firefly Enterprise security fact sheet](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf) and [Adobe DPA](https://www.adobe.com/legal/terms/enterprise-licensing/data-protection.html). |
-| GitHub Copilot Business/Enterprise | Firm-managed subscription | Prompts and suggestions are not used for model training under Business/Enterprise terms; operational logging and retention may still apply. See [GitHub Copilot data handling](https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/) and [product terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features). |
-| ArchiCAD AI Assistant / AI Visualizer | Part of licensed ArchiCAD Collaborate or Studio plan | Graphisoft does not use project data for AI training. See [AI Assistant details](https://www.graphisoft.com/en-us/plans-and-products/ai-assistant/) and [Graphisoft legal/DPA](https://www.graphisoft.com/en-us/company/legal). |
-| Revit AI features (Generative Design, AI Assistant) | Part of licensed Revit / AEC Collection subscription | Covered under [Autodesk's DPA](https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/Autodesk_DPA_Online.pdf). See [Revit AI features overview](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/What-AI-features-are-available-in-Revit.html) and [Autodesk Trust Center](https://www.autodesk.com/trust/privacy). |
-| AutoCAD AI features (Smart Blocks, Autodesk Assistant) | Part of licensed AutoCAD subscription | Covered under [Autodesk's DPA](https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/Autodesk_DPA_Online.pdf). See [AutoCAD AI features overview](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/What-are-the-AutoCAD-AI-driven-features.html). |
-| Bluebeam AI features (AI-Review, AI-Match) | Part of licensed Bluebeam Revu or Bluebeam Max subscription | See [Bluebeam AI & Innovation](https://www.bluebeam.com/product/ai-and-innovation/) and [Bluebeam DPA](https://www.bluebeam.com/legal/data-processing-addendum/). |
+| Microsoft 365 Copilot / Copilot Chat | Must be licensed and turned on by the firm under an eligible Microsoft 365 subscription | Copilot is an add-on — it's not included in M365 by default. Make sure you have the version with enterprise data protection (Copilot and Copilot Chat are different products with different licensing). See [Microsoft's DPA](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA) and [Copilot privacy & data protection](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy). |
+| Adobe Firefly | Included in the firm's Creative Cloud enterprise subscription | Adobe does not use enterprise content to train Firefly. See [Firefly Enterprise security fact sheet](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf) and [Adobe DPA](https://www.adobe.com/legal/terms/enterprise-licensing/data-protection.html). |
+| GitHub Copilot Business/Enterprise | Firm-managed subscription | Your prompts and suggestions are not used for training under Business/Enterprise plans (though some operational logging may still happen). See [GitHub Copilot data handling](https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/) and [product terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features). |
+| ArchiCAD AI Assistant / AI Visualizer | Part of a licensed ArchiCAD Collaborate or Studio plan | Graphisoft does not use your project data to train AI. See [AI Assistant details](https://www.graphisoft.com/en-us/plans-and-products/ai-assistant/) and [Graphisoft legal/DPA](https://www.graphisoft.com/en-us/company/legal). |
+| Revit AI features (Generative Design, AI Assistant) | Part of a licensed Revit / AEC Collection subscription | Covered under [Autodesk's DPA](https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/Autodesk_DPA_Online.pdf). See [Revit AI features overview](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/What-AI-features-are-available-in-Revit.html) and [Autodesk Trust Center](https://www.autodesk.com/trust/privacy). |
+| AutoCAD AI features (Smart Blocks, Autodesk Assistant) | Part of a licensed AutoCAD subscription | Covered under [Autodesk's DPA](https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/Autodesk_DPA_Online.pdf). See [AutoCAD AI features overview](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/What-are-the-AutoCAD-AI-driven-features.html). |
+| Bluebeam AI features (AI-Review, AI-Match) | Part of a licensed Bluebeam Revu or Bluebeam Max subscription | See [Bluebeam AI & Innovation](https://www.bluebeam.com/product/ai-and-innovation/) and [Bluebeam DPA](https://www.bluebeam.com/legal/data-processing-addendum/). |
 
-> **Firm administrators:** Update this table to reflect your actual subscriptions and configurations. A tool listed here is only Tier 1 if your firm holds the specific license tier that includes enterprise data protections and has been configured and approved by IT for the relevant data types and workflows.
+> **Firm administrators:** Update this table to match your actual subscriptions. A tool is only Tier 1 if your firm has the specific license that includes enterprise data protections and IT has set it up and approved it.
 
 ### Tier 2 — Approved with Restrictions (enterprise protections confirmed, requires IT setup)
 
-These tools offer ZDR under specific subscription tiers but are not part of the firm's core software stack. They may be used with project data only after IT has confirmed the firm's account is configured correctly.
+These tools offer data protections under certain subscription tiers but aren't part of the firm's core software. They can be used with project data, but only after IT has confirmed the account is set up correctly.
 
 | Tool | Required Tier | Key Restriction |
 |------|--------------|-----------------|
-| ChatGPT Business / Enterprise | Firm-managed only | Business data is not used for training by default. Must be provisioned and managed by the firm — personal subscriptions do not qualify. |
-| OpenAI API | Provisioned by IT under approved retention settings | Zero-data-retention may be available only for qualifying configurations. IT must verify retention settings before use with project data. |
-| Claude for Work / Team / Enterprise | Firm-managed only | Commercial terms govern data handling separately from consumer products. Must be reviewed and approved by IT before use with project data. |
-| Gemini for Google Workspace | Accessed through firm's managed Google Workspace environment | Enterprise protections apply when Gemini is accessed through a managed Workspace account. Consumer Gemini remains non-approved for confidential or project data. |
+| ChatGPT Business / Enterprise | Firm-managed only | Your data is not used for training by default. Must be set up and managed by the firm — personal subscriptions don't count. |
+| OpenAI API | Set up by IT with approved settings | Zero-data-retention may only apply under certain configurations. IT must verify the settings before you use it with project data. |
+| Claude for Work / Team / Enterprise | Firm-managed only | The business plans handle data differently than the consumer product. Must be reviewed and approved by IT before use with project data. |
+| Gemini for Google Workspace | Accessed through the firm's managed Google Workspace | Enterprise protections only apply through a managed Workspace account. Consumer Gemini is not approved for confidential or project data. |
 
 ### Tier 3 — Approved for General Knowledge Only (No ZDR or unverified)
 
-These tools may be used only for general-purpose questions that contain **zero** client data, project data, firm financials, or internal business information. Treat them the way you would treat a public Google search.
+These tools can only be used for general questions that contain **zero** client data, project data, firm financials, or internal business information. Think of them the same way you'd think of a Google search — don't type anything you wouldn't want to be public.
 
-Examples: ChatGPT Free/Plus/Pro (consumer plans), Claude Free/Pro/Max (consumer plans), consumer Gemini, Perplexity Free, Midjourney (default plans), any AI tool not listed in Tier 1 or Tier 2. Consumer plans may use content for model improvement unless the user has explicitly disabled training — but even with training disabled, these plans lack the contractual protections required for firm data.
+Examples: ChatGPT Free/Plus/Pro (consumer plans), Claude Free/Pro/Max (consumer plans), consumer Gemini, Perplexity Free, Midjourney (default plans), or any AI tool not listed in Tier 1 or Tier 2. Consumer plans may use your input to improve their AI models unless you've turned that off — but even with training disabled, these plans don't have the written protections the firm needs for client or project data.
 
 ### Tier 4 — Prohibited
 
@@ -81,31 +80,31 @@ Examples: ChatGPT Free/Plus/Pro (consumer plans), Claude Free/Pro/Max (consumer 
 - AI tools that require uploading files to unknown or unvetted third-party servers
 - "Jailbroken" or unofficial AI model wrappers
 
-> **If a tool is not listed in Tier 1 or Tier 2, it is Tier 3 by default.** Staff do not need to submit a request to use a Tier 3 tool for general knowledge queries. Staff must submit a request to IT if they want a tool evaluated for Tier 1 or Tier 2 classification.
+> **If a tool isn't listed in Tier 1 or Tier 2, it's Tier 3 by default.** You don't need to ask permission to use a Tier 3 tool for general knowledge questions. If you want a tool evaluated for Tier 1 or Tier 2, submit a request to IT.
 
 ---
 
-## Local Processing vs. Cloud-Routed AI
+## 5. Local Processing vs. Cloud-Routed AI
 
-Not all AI tools send your data to a remote server. Understanding the difference matters for risk assessment:
+Not all AI tools send your data to someone else's server. Understanding the difference matters:
 
-- **Local / on-device AI** runs the model entirely on your computer or your firm's server. Your data never leaves the device. Examples: locally installed LLMs (Ollama, LM Studio), on-device transcription (Whisper running locally), and certain desktop features in tools like ArchiCAD, Revit, AutoCAD, or Bluebeam that process data on your workstation without a cloud connection. Local processing carries the lowest data exposure risk because there is no network transmission — but the output still requires the same professional review.
+- **Local / on-device AI** runs entirely on your computer or the firm's server. Your data never leaves the device. Examples: locally installed LLMs (Ollama, LM Studio), on-device transcription (Whisper running locally), and some features in ArchiCAD, Revit, AutoCAD, or Bluebeam that process data right on your workstation. This is the lowest risk for data exposure — but the output still needs the same professional review as anything else.
 
-- **Cloud-routed AI** sends your input to the vendor's servers for processing and returns a result. This includes ChatGPT, Claude, Gemini, Midjourney, and most AI features in SaaS products. Cloud routing is where ZDR status matters — without it, your data may be stored, logged, or used for training on the vendor's infrastructure.
+- **Cloud-routed AI** sends your input to the vendor's servers and sends a result back. This includes ChatGPT, Claude, Gemini, Midjourney, and most AI features in online software. This is where ZDR matters — without it, your data could be stored, logged, or used for training on the vendor's servers.
 
-- **Hybrid tools** may process some operations locally and route others to the cloud. Microsoft Copilot in M365, for example, processes within your tenant environment but still communicates with Microsoft's AI infrastructure. Adobe Firefly generates images server-side. When evaluating a tool, ask: *where does the data go when I press Enter?*
+- **Hybrid tools** do some work locally and send other tasks to the cloud. Microsoft Copilot in M365, for example, works within your firm's environment but still talks to Microsoft's AI servers. Adobe Firefly generates images on Adobe's servers. A good question to ask yourself: *where does my data go when I press Enter?*
 
-If the firm deploys local AI models for internal use, those tools are not automatically Tier 1 — IT must still evaluate them for security, licensing, and output quality. But local processing does eliminate the third-party data exposure risk that drives most of this policy.
+If the firm runs its own local AI models, those aren't automatically Tier 1 — IT still needs to evaluate them. But local processing does eliminate the risk of your data ending up on someone else's servers, which is what most of this policy is about.
 
 ---
 
-## Data Classification for AI Use
+## 6. Data Classification for AI Use
 
-Not all firm data carries the same risk. The following classification determines what may be shared with AI tools at each tier.
+Not all data carries the same risk. This classification tells you what kind of data you can use with which AI tools.
 
 ### Level 1 — Public / General Knowledge
 
-Information that is already publicly available or carries no confidentiality obligation.
+Information that's already public or has no confidentiality attached to it.
 
 *AEC examples:* general building code questions, publicly available zoning regulations, material specification lookups, general construction methodology questions, publicly posted project photos (post-completion, with client permission)
 
@@ -113,7 +112,7 @@ Information that is already publicly available or carries no confidentiality obl
 
 ### Level 2 — Internal / Low Sensitivity
 
-Firm information that is not public but would cause minimal harm if disclosed.
+Firm information that isn't public but wouldn't cause real harm if it got out.
 
 *AEC examples:* internal meeting agendas (non-client), firm process documentation, general templates, training materials, draft marketing content, non-confidential RFP response boilerplate
 
@@ -121,7 +120,7 @@ Firm information that is not public but would cause minimal harm if disclosed.
 
 ### Level 3 — Confidential / Project Data
 
-Client project information, design work, and business data protected by professional obligation or contract.
+Client project information, design work, and business data that we're professionally or contractually obligated to protect.
 
 *AEC examples:* concept sketches and design development drawings, construction documents (pre-bid and post-bid), BIM models and associated data, project specifications, client correspondence, client budgets and fee proposals, site photography and survey data, structural and MEP engineering calculations, energy models, subcontractor pricing, project schedules with cost data
 
@@ -129,144 +128,144 @@ Client project information, design work, and business data protected by professi
 
 ### Level 4 — Restricted
 
-Information subject to specific legal protections, NDAs with heightened terms, or regulatory requirements.
+The most sensitive data — protected by specific legal requirements, strict NDAs, or regulations.
 
 *AEC examples:* NDA-protected design work (e.g., pre-announcement projects for public clients), security-sensitive facility designs (government, healthcare, data centers), critical infrastructure projects (utilities, transportation, water treatment), export-controlled work, defense or law enforcement facility designs, personally identifiable information (PII) of building occupants, legal correspondence related to claims or disputes, sealed bid documents, HIPAA-adjacent healthcare facility programming data
 
-**Permitted AI tiers:** 1 only, and only with explicit principal/partner approval per instance. Some Level 4 data may be excluded from AI use entirely based on the specific NDA or regulatory requirement.
+**Permitted AI tiers:** 1 only, and only with explicit principal/partner approval each time. Some Level 4 data may not be allowed in any AI tool at all, depending on the specific NDA or regulation.
 
 ---
 
-## Rules for AI Use in AEC Work
+## 7. Rules for AI Use in AEC Work
 
-### 6.1 — Professional Review of AI-Generated Output
+### 7.1 — Professional Review of AI-Generated Output
 
-AI tools can produce plausible-looking output that is incorrect, incomplete, or unsuitable for the project context. This is especially consequential in AEC work, where errors can affect life safety, code compliance, and professional liability.
+AI can produce output that looks right but is wrong, incomplete, or doesn't fit the project. In AEC work, that's a serious problem — errors can affect life safety, code compliance, and professional liability.
 
-**The baseline rule:** Every AI-generated output that will appear in a client deliverable, be used in a design decision, or inform engineering calculations must be reviewed by a qualified professional before use.
+**The baseline rule:** If AI-generated output is going into a client deliverable, informing a design decision, or feeding into engineering calculations, a qualified professional must review it first.
 
-You are responsible for anything you present as your own work, regardless of how it was produced. AI-generated content in stamped or sealed documents must never be the sole basis for any element — the professional of record is responsible for independent verification.
+You are responsible for anything you put your name on, no matter how it was produced. AI-generated content in stamped or sealed documents must never stand on its own — the professional of record must independently verify it.
 
-> **Firms:** Define your review requirements based on your practice areas, risk tolerance, and licensure obligations. At a minimum, consider the following framework and customize it to match your professional liability insurance requirements. Some carriers are issuing specific guidance on AI-generated work product — check with your broker.
+> **Firms:** Define your review requirements based on your practice areas and risk tolerance. Some insurance carriers are issuing specific guidance on AI-generated work product — check with your broker. At a minimum, consider this framework:
 >
-> - **Conceptual and internal use** (brainstorming, internal memos, research summaries): Review for factual accuracy before relying on the output.
-> - **Client-facing deliverables** (reports, presentations, renderings shown to clients): Review by a project manager or senior staff member before delivery.
-> - **Technical and code-compliance work** (calculations, code analysis, specification language, drawing annotations): Review by a licensed professional appropriate to the discipline before incorporation into documents of record.
-> - **Stamped or sealed documents:** Independent verification by the professional of record required before any AI-assisted content is incorporated.
+> - **Conceptual and internal use** (brainstorming, internal memos, research summaries): Check for factual accuracy before relying on the output.
+> - **Client-facing deliverables** (reports, presentations, renderings shown to clients): Have a project manager or senior staff member review before delivery.
+> - **Technical and code-compliance work** (calculations, code analysis, specification language, drawing annotations): Have a licensed professional in the appropriate discipline review before it goes into documents of record.
+> - **Stamped or sealed documents:** The professional of record must independently verify any AI-assisted content before it's incorporated.
 
-### 6.2 — Disclosure and Transparency
+### 7.2 — Disclosure and Transparency
 
-- Be transparent with your team when AI tools played a significant role in producing deliverables.
-- If a client contract or RFP requires disclosure of AI use, comply fully.
-- Do not represent AI-generated content as original human work in contexts where the distinction matters (proposals, qualifications, published articles).
+- Be upfront with your team when AI played a big role in producing deliverables.
+- If a client contract or RFP requires you to disclose AI use, do it.
+- Don't pass off AI-generated content as original human work in situations where the distinction matters (proposals, qualifications, published articles).
 
-### 6.3 — Intellectual Property and Copyright
+### 7.3 — Intellectual Property and Copyright
 
-- AI-generated images and text may not be eligible for copyright protection. Do not rely on AI-generated content as the sole basis for work you intend to register or defend as intellectual property.
-- Do not upload copyrighted third-party materials (other firms' drawings, copyrighted reference images, published standards with restricted distribution) into AI tools.
-- Before using AI-generated images in client deliverables or marketing, confirm that the tool's terms of service grant you commercial use rights under your subscription tier.
+- AI-generated images and text may not qualify for copyright protection. Don't rely on AI output as the sole basis for anything you plan to copyright or defend as intellectual property.
+- Don't upload other people's copyrighted work into AI tools — that includes other firms' drawings, copyrighted reference images, and published standards with restricted distribution.
+- Before using AI-generated images in client deliverables or marketing, make sure the tool's terms of service actually give you commercial use rights under your subscription.
 
-### 6.4 — AI for Code and Computational Design
+### 7.4 — AI for Code and Computational Design
 
-If your firm uses computational design tools (Grasshopper, Dynamo, custom scripts), AI code assistants like GitHub Copilot can be productive — but generated code must be reviewed and tested before use in production workflows. Do not deploy AI-generated scripts that modify BIM models or automate drawing production without testing in an isolated environment first and getting approval from a firm principal or partner.
+If your firm uses computational design tools (Grasshopper, Dynamo, custom scripts), AI code assistants like GitHub Copilot can be helpful — but you must review and test any generated code before using it in real workflows. Don't run AI-generated scripts that modify BIM models or automate drawing production without testing them in an isolated environment first and getting approval from a firm principal or partner.
 
-### 6.5 — Data Minimization
+### 7.5 — Data Minimization
 
-Even when using a Tier 1 or Tier 2 tool, minimize the data you share. Before submitting a prompt or uploading a file, strip out client names, project names, site addresses, fee amounts, personal contact information, and other identifying details where feasible. The less specific data you share with any AI tool, the lower the risk if something goes wrong.
+Even when using a Tier 1 or Tier 2 tool, share as little data as possible. Before you type a prompt or upload a file, take a moment to remove client names, project names, site addresses, fee amounts, and personal contact info where you can. The less you share, the less there is to worry about if something goes wrong.
 
-### 6.6 — Records Retention and Discoverability
+### 7.6 — Records Retention and Discoverability
 
-AI prompts and outputs may become business records — particularly if they influence design decisions, inform engineering calculations, or contribute to client deliverables. Do not assume that AI conversations are informal or undiscoverable. If AI-generated content contributes to a project decision, the relevant output should be saved in the firm's approved project records system, not left only in a third-party chat history.
+Your AI conversations could become business records — especially if they influence design decisions, feed into calculations, or end up in client deliverables. Don't assume AI chats are casual and private. If AI output contributed to a project decision, save that output in the firm's project records system. Don't leave it sitting in a third-party chat history as the only copy.
 
-### 6.7 — Output Storage
+### 7.7 — Output Storage
 
-AI-generated output containing project or firm information must be copied into approved firm systems (project folders, document management, approved cloud storage) and not left indefinitely in third-party AI chat histories. Delete AI conversations containing project data from third-party platforms once the relevant output has been captured in firm systems.
+If AI output contains project or firm information, copy it into the firm's approved systems (project folders, document management, approved cloud storage). Don't leave it sitting in a third-party AI chat indefinitely. Once you've saved the relevant output to firm systems, delete the AI conversation from the third-party platform.
 
-### 6.8 — AI in Client Communications
+### 7.8 — AI in Client Communications
 
-Do not use AI tools to draft client communications that misrepresent the level of human involvement. If AI is used to help draft a client email, the sender is responsible for its content, tone, and accuracy — the same as any other tool used to assist in writing.
+Don't use AI to draft client communications in a way that misrepresents who actually wrote them. If you use AI to help draft a client email, you're still responsible for what it says, how it sounds, and whether it's accurate — same as if you'd used any other tool to help you write.
 
 ---
 
-## Prohibited Uses
+## 8. Prohibited Uses
 
-Regardless of tool tier or data classification, the following uses of AI are prohibited:
+No matter what tool or data type is involved, the following are never allowed:
 
-1. Uploading complete construction document sets, full BIM models, or full project specifications to any AI tool without documented project lead approval and confirmation that the tool is specifically approved for that dataset type — the volume of data increases exposure risk
+1. Uploading full construction document sets, complete BIM models, or entire project specifications to any AI tool without written project lead approval and confirmation that the tool is approved for that type of data — the sheer volume increases the risk
 2. Using AI to generate professional stamps, seals, or signatures
-3. Using AI to produce structural, mechanical, electrical, or plumbing calculations that will be used without independent verification by a licensed engineer
-4. Using AI to draft legal documents, contracts, or insurance claims without legal counsel review
-5. Using AI as the sole or primary basis for employee performance reviews, HR decisions, or hiring/firing recommendations — AI may be used to assist with drafting, but final decisions and content must comply with employment law and firm HR policy
-6. Circumventing tool restrictions (e.g., using a personal ChatGPT Free account to do work that requires a Tier 1 or Tier 2 tool because "it's faster")
+3. Using AI to produce structural, mechanical, electrical, or plumbing calculations without a licensed engineer independently verifying the results
+4. Using AI to draft legal documents, contracts, or insurance claims without legal counsel reviewing them
+5. Using AI as the main basis for employee performance reviews, HR decisions, or hiring/firing — AI can help with drafting, but final decisions must comply with employment law and firm HR policy
+6. Working around tool restrictions (e.g., using a personal ChatGPT Free account to do work that needs a Tier 1 or Tier 2 tool because "it's faster")
 7. Installing AI browser extensions or plugins without IT approval
-8. Using AI tools to reverse-engineer, replicate, or analyze competitors' proprietary work
+8. Using AI to reverse-engineer, copy, or analyze competitors' proprietary work
 
 ---
 
-## Incident Response: Accidental Data Exposure
+## 9. Incident Response: Accidental Data Exposure
 
-If you accidentally upload confidential or restricted data to an AI tool that does not have ZDR protections:
+If you accidentally share confidential or restricted data with an AI tool that doesn't have ZDR protections:
 
-1. **Stop immediately.** Do not continue the conversation or upload additional data.
-2. **Screenshot or copy the conversation** before closing it — this preserves evidence of what was shared.
-3. **Delete the conversation** from the AI tool if the platform allows it (ChatGPT: delete from sidebar; Claude: delete conversation; Gemini: delete activity).
-4. **Notify IT within 1 business hour** at [INSERT IT CONTACT: email/Slack/phone]. Include: which tool, what data was shared, which client/project, and whether you were able to delete the conversation.
-5. **IT will assess** whether the client needs to be notified based on the firm's contractual obligations and the sensitivity of the data involved.
-6. **Do not attempt to handle this quietly.** Fast reporting is not punished — delayed reporting creates legal exposure.
+1. **Stop immediately.** Don't continue the conversation or upload anything else.
+2. **Screenshot or copy the conversation** before closing it — you need a record of what was shared.
+3. **Delete the conversation** from the AI tool if you can (ChatGPT: delete from sidebar; Claude: delete conversation; Gemini: delete activity).
+4. **Tell IT within 1 business hour** at [INSERT IT CONTACT: email/Slack/phone]. Include: which tool, what data was shared, which client/project, and whether you were able to delete the conversation.
+5. **IT will determine next steps**, including whether the client needs to be notified.
+6. **Don't try to handle this quietly.** Reporting quickly is not punished — waiting to report it creates legal risk.
 
 > **Firms:** Insert your actual IT contact method above.
 
 ---
 
-## New Tool Requests and Evaluation
+## 10. New Tool Requests and Evaluation
 
-To request a new AI tool be evaluated for Tier 1 or Tier 2 classification:
+Want to use a new AI tool for project work? Here's how to get it evaluated:
 
-1. Submit a request to IT with: tool name, vendor, intended use case, subscription tier being considered, and a link to the vendor's data processing terms.
-2. IT will evaluate the tool against the firm's data protection criteria, including ZDR status, contractual protections, admin controls, and data residency.
-3. IT will respond with an approval, denial, or request for more information.
-4. Approved tools will be added to the classification table in this policy and communicated to all staff.
+1. Send IT a request with: the tool name, vendor, what you want to use it for, which subscription tier you're looking at, and a link to the vendor's data processing terms.
+2. IT will review the tool's data protections, ZDR status, admin controls, and where data is stored.
+3. IT will get back to you with an approval, denial, or follow-up questions.
+4. Approved tools will be added to the classification table in this policy and announced to all staff.
 
-Do not use a tool at Tier 1 or Tier 2 classification levels until IT has confirmed the evaluation.
-
----
-
-## Approval Authority
-
-Different types of AI-related decisions require different levels of approval:
-
-- **IT** reviews and approves the technical and security fit of AI tools (tool classification, configuration, account provisioning).
-- **Legal or operations** reviews contract and data processing terms when needed, particularly for tools handling Level 3 or Level 4 data.
-- **A firm principal or project executive** approves Level 4 data use, project-specific exceptions, and any AI use that falls outside the standard rules in this policy.
-
-If you are unsure whether your intended use requires approval beyond IT, ask your project lead.
+Don't use a tool at Tier 1 or Tier 2 levels until IT has finished the evaluation.
 
 ---
 
-## Training
+## 11. Approval Authority
 
-> **Firms:** Consider requiring short training on this policy and on the specific AI tools your firm has approved before granting staff access to Tier 1 or Tier 2 tools. Annual re-acknowledgment of this policy is recommended. Training does not need to be elaborate — a 30-minute walkthrough of the data classification levels, tool tiers, and incident reporting steps is sufficient for most staff.
+Different decisions need different levels of approval:
 
----
+- **IT** decides whether a tool is technically safe and properly set up (tool classification, configuration, account setup).
+- **Legal or operations** reviews contract and data terms when needed, especially for tools handling Level 3 or Level 4 data.
+- **A firm principal or project executive** must approve Level 4 data use, project-specific exceptions, and any AI use that goes beyond what this policy covers.
 
-## Enforcement
-
-- IT may audit AI tool usage through endpoint management, browser history (on firm-managed devices), network traffic logs, and software inventory.
-- Violations of this policy will be addressed through the firm's standard disciplinary process.
-- Repeated or intentional violations — particularly those involving client data exposure — may result in termination and will be reported to the firm's professional liability carrier if required by policy terms.
-- This policy will be reviewed and updated quarterly, or sooner if a significant change occurs in AI tool capabilities, vendor terms, or regulatory requirements.
+If you're not sure whether your situation needs more than IT approval, ask your project lead.
 
 ---
 
-## Disclaimer
+## 12. Training
 
-This policy governs internal firm use of AI tools and does not replace project-specific contractual requirements, legal advice, or professional licensure obligations. AI vendor terms, features, and data handling practices change frequently — the firm is responsible for verifying that the information in this policy remains current.
+> **Firms:** Consider requiring a short training session on this policy and your approved AI tools before giving staff access to Tier 1 or Tier 2 tools. An annual re-acknowledgment of this policy is a good idea. Training doesn't need to be complicated — a 30-minute walkthrough of the data levels, tool tiers, and what to do if something goes wrong is enough for most staff.
 
 ---
 
-## Acknowledgment
+## 13. Enforcement
 
-I have read and understand this AI Acceptable Use Policy. I understand that violations may result in disciplinary action and that I am responsible for the appropriate use of AI tools in my work.
+- IT may check AI tool usage through device management, browser history (on firm devices), network logs, and software inventory.
+- Violations will be handled through the firm's standard disciplinary process.
+- Repeated or intentional violations — especially ones that expose client data — may result in termination and will be reported to the firm's liability insurance carrier if required.
+- This policy will be reviewed and updated quarterly, or sooner if something significant changes with AI tools, vendor terms, or regulations.
+
+---
+
+## 14. Disclaimer
+
+This policy covers the firm's internal use of AI tools. It doesn't replace project-specific contract requirements, legal advice, or your professional licensure obligations. AI vendor terms and features change frequently — the firm is responsible for keeping this policy up to date.
+
+---
+
+## 15. Acknowledgment
+
+I have read and understand this AI Acceptable Use Policy. I understand that violations may result in disciplinary action and that I am responsible for using AI tools appropriately in my work.
 
 **Name:** _______________________________________________
 
@@ -276,7 +275,7 @@ I have read and understand this AI Acceptable Use Policy. I understand that viol
 
 ---
 
-## Revision History
+## 16. Revision History
 
 | Version | Date | Summary |
 |---------|------|---------|
@@ -284,4 +283,4 @@ I have read and understand this AI Acceptable Use Policy. I understand that viol
 
 ---
 
-*This policy is part of the [Open IT Policy Library for AEC](https://github.com/sortedsol/Open-IT-Policy-Library) by [Sorted Solution](https://www.sortedsolution.com). Free to use, fork, and adapt. Attribution appreciated.*
+*This policy is part of the [Open IT Policy Library for AEC](https://github.com/sortedsol/Open-IT-Policy-Library) by [Sorted Solution](https://sortedsolution.com). Free to use, fork, and adapt. Attribution appreciated.*
