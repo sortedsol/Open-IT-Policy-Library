@@ -28,7 +28,8 @@ Open-IT-Policy-Library/
 ├── policies/
 │   ├── aec/                    ← AEC-specific policies
 │   │   └── AI-Acceptable-Use-Policy-AEC.md
-│   └── general/                ← General SMB policies (coming soon)
+│   └── general/                ← General SMB policies
+│       └── AI-Acceptable-Use-Policy.md
 ```
 
 ## Current Policies
@@ -41,7 +42,9 @@ Open-IT-Policy-Library/
 
 ### General SMB Track
 
-Coming soon — derived from AEC policies with industry-specific references generalized.
+| Policy | Status | Description |
+|--------|--------|-------------|
+| [AI Acceptable Use Policy](policies/general/AI-Acceptable-Use-Policy.md) | Published | Four-tier AI tool classification, data classification, vendor-specific guidance with DPA links, incident response, and enforcement hooks — written for any professional services firm. |
 
 ## How to Use These Policies
 
